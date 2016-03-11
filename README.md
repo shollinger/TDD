@@ -23,7 +23,7 @@ Write Test Spec
  - Often good to create an initialization function that accepts dependencies as arguments.  This allows you to easily mock them and spy on their functions
 
 - Create Test Shells
- - Test name: <unit> <does something> <when something> OR <when something>, <unit> <does something>
+ - Test name: *unit* *does something* *when something* OR *when something*, *unit* *does something*
  - Use 'describe' to organize tests in a consistent way.  I like 'happy path', 'error handling', 'edge cases'
 
 - Test Reset Function
