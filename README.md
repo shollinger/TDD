@@ -6,7 +6,7 @@ Benefits
 - Immediate Testing Feedback Loop
  - Did modified code break another requirement of the unit?
  - Did modified/added code meet the new requirements?
- - Easy refactors and algorithm changes!
+ - Easy refactors, algorithm changes, and cleanups!
 - Can easily reason about how to write tests.
 - Write testable code!
 
