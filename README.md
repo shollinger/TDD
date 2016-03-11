@@ -17,7 +17,7 @@ Write Test Spec
 - Create Unit Shell
  - Empty block in all public-facing functions
 
-- Dependencies
+- Identify and Mock Dependencies
  - What is this unit doing?  What does it need to do it's job (no more, no less).  Only the direct interfaces, not the dependency's dependencies.
  - Mock dependencies, allowing for control of how they interact with the unit (what they return when the unit uses them)
  - Often good to create an initialization function that accepts dependencies as arguments.  This allows you to easily mock them and spy on their functions
