@@ -6,6 +6,7 @@ Benefits
 - Immediate Testing Feedback Loop
  - Did modified code break another requirement of the unit?
  - Did modified/added code meet the new requirements?
+ - Easy refactors and algorithm changes!
 - Can easily reason about how to write tests.
 - Write testable code!
 
@@ -14,6 +15,8 @@ Drawbacks
 ------------------------------------------------------------------
 - Extra code to write/maintain
 - Bad tests can create false sense of security
+- Changes in dependencies and interfaces require changes in the tests.
+ - Try to mitigate by following good design practices in the tests! (see below)
 
 Write Test Spec
 ------------------------------------------------------------------
