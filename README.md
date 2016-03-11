@@ -9,6 +9,11 @@ Benefits
 - Write testable code!
 
 
+Drawbacks
+------------------------------------------------------------------
+- Extra code to write/maintain
+- Bad tests can create false sense of security
+
 Write Test Spec
 ------------------------------------------------------------------
 
