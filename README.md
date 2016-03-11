@@ -15,7 +15,7 @@ Write Test Spec
 - Model System's Units
 
 - Create Unit Shell
--- Empty block in all public-facing functions
+ - Empty block in all public-facing functions
 
 - Dependencies
     -What is this unit doing?  What does it need to do it's job (no more, no less).  Only the direct interfaces, not the dependency's dependencies.
