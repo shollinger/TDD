@@ -12,7 +12,7 @@ Benefits
 Write Test Spec
 ------------------------------------------------------------------
 
-- (Model System's Units)[https://zendesk.atlassian.net/wiki/display/supportops/RoboTriage]
+- [Model System's Units](https://zendesk.atlassian.net/wiki/display/supportops/RoboTriage)
 
 - Create Unit Shell
  - Empty block in all public-facing functions
