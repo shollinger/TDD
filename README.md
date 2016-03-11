@@ -62,7 +62,7 @@ Write Unit Code
 - Run the entire test suite - ALL TESTS WILL FAIL! This is good - we want to know our code is making things better.
 - Turn on file watcher
 - 1 test at a time, fill in the code until the test passes.  
-- Don't forget good code design!
+- Don't forget [good code design](http://www.principles-wiki.net/principles:start)!
  - [DRY](http://c2.com/cgi/wiki?DontRepeatYourself)
  - [SLAP](http://www.principles-wiki.net/principles:single_level_of_abstraction)
  - [Style Guide](https://github.com/zendesk/zendesk/wiki/Info%3A-Style-Guide-for-Ruby%2C-CSS%2C-JavaScript)
