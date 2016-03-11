@@ -1,7 +1,7 @@
-* Benefits
+Benefits
 ------------------------------------------------------------------
 
-** Automated tests at build-time to ensure new builds and releases contain code that's working.
+### Automated tests at build-time to ensure new builds and releases contain code that's working.
 ** Know all the requirements of the unit.
 ** Know immediately if modified code breaks another requirement of the unit.
 ** Can sleep at night knowing the code is working as you expect!
@@ -9,7 +9,7 @@
 ** Write testable code!
 
 
-* Write Test Spec
+Write Test Spec
 ------------------------------------------------------------------
 
 ** Model System's Units
@@ -47,7 +47,7 @@
 //////////// HAVE A BEER ////////////
 
 
-* Write Unit Code
+Write Unit Code
 --------------------------------------------------------------------
 
 ** Run the entire test suite - ALL TESTS WILL FAIL! This is good - we want to know our code is making things better.
