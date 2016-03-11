@@ -4,7 +4,7 @@ Benefits
 - Automated tests at build-time to ensure new builds and releases contain code that's working.
 - Know all the requirements of the unit.
 - Immediate Testing Feedback Loop
- - Did modified code breaks another requirement of the unit?
+ - Did modified code break another requirement of the unit?
  - Did modified/added code meet the new requirements?
 - Can easily reason about how to write tests.
 - Write testable code!
