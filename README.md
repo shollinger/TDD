@@ -1,48 +1,48 @@
 Benefits
 ------------------------------------------------------------------
 
-### Automated tests at build-time to ensure new builds and releases contain code that's working.
-** Know all the requirements of the unit.
-** Know immediately if modified code breaks another requirement of the unit.
-** Can sleep at night knowing the code is working as you expect!
-** Can easily reason about how to write tests.
-** Write testable code!
+- Automated tests at build-time to ensure new builds and releases contain code that's working.
+- Know all the requirements of the unit.
+- Know immediately if modified code breaks another requirement of the unit.
+- Can sleep at night knowing the code is working as you expect!
+- Can easily reason about how to write tests.
+- Write testable code!
 
 
 Write Test Spec
 ------------------------------------------------------------------
 
-** Model System's Units
+- Model System's Units
 
-** Create Unit Shell
-- Empty block in all public-facing functions
+- Create Unit Shell
+-- Empty block in all public-facing functions
 
-** Dependencies
-- What is this unit doing?  What does it need to do it's job (no more, no less).  Only the direct interfaces, not the dependency's dependencies.
-- Mock dependencies, allowing for control of how they interact with the unit (what they return when the unit uses them)
-- Often good to create an initialization function that accepts dependencies as arguments.  This allows you to easily mock them and spy on their functions
+- Dependencies
+-- What is this unit doing?  What does it need to do it's job (no more, no less).  Only the direct interfaces, not the dependency's dependencies.
+-- Mock dependencies, allowing for control of how they interact with the unit (what they return when the unit uses them)
+-- Often good to create an initialization function that accepts dependencies as arguments.  This allows you to easily mock them and spy on their functions
 
-** Create Test Shells
-- Test name: <unit> <does something> <when something> OR <when something>, <unit> <does something>
-- Use 'describe' to organize tests in a consistent way.  I like 'happy path', 'error handling', 'edge cases'
+- Create Test Shells
+-- Test name: <unit> <does something> <when something> OR <when something>, <unit> <does something>
+-- Use 'describe' to organize tests in a consistent way.  I like 'happy path', 'error handling', 'edge cases'
 
-** Test Reset Function
-- beforeEach
-- Create unit and dependency varibles, and initialize them
-- Some dependencies will be modified in each test along with the input, to cover each test scenario.
+- Test Reset Function
+-- beforeEach
+-- Create unit and dependency varibles, and initialize them
+-- Some dependencies will be modified in each test along with the input, to cover each test scenario.
 
-** Input generating functions
+- Input generating functions
 
-** Sometimes a common 'expects' function is appropriate.  If you want a set of tests to behave the same way over a set of given inputs (e.g. error handling), and/or there are common things to check between tests, even if there are others scenarios each individual test will check for.
+-- Sometimes a common 'expects' function is appropriate.  If you want a set of tests to behave the same way over a set of given inputs (e.g. error handling), and/or there are common things to check between tests, even if there are others scenarios each individual test will check for.
 
-** Go through each test, 1 by 1, and fill them in
-- Set up input and dependency states (if needed)
-- Set up spys (if needed)
-- Run the module function you're testing with the given input
-- Call expects for the scenario you're testing
+-- Go through each test, 1 by 1, and fill them in
+-- Set up input and dependency states (if needed)
+-- Set up spys (if needed)
+-- Run the module function you're testing with the given input
+-- Call expects for the scenario you're testing
 
-** Other Notes
-- As you write tests, you'll notice where you have clean interfaces (easy to mock what the unit needs) and where units are too coupled or complicated (unnecessary dependencies, hard to spy on functions, unable to be deterministic about results)
+- Other Notes
+-- As you write tests, you'll notice where you have clean interfaces (easy to mock what the unit needs) and where units are too coupled or complicated (unnecessary dependencies, hard to spy on functions, unable to be deterministic about results)
 
 //////////// HAVE A BEER ////////////
 
