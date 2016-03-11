@@ -45,10 +45,10 @@ Write Test Spec
 - Sometimes a common 'expects' function is appropriate.
 
 - Go through each test, 1 by 1, and fill them in
-- Set up input and dependency states (if needed)
-- Set up spys (if needed)
-- Run the module function you're testing with the given input
-- Call expects for the scenario you're testing
+ - Set up input and dependency states (if needed)
+ - Set up spys (if needed)
+ - Run the module function you're testing with the given input
+ - Call expects for the scenario you're testing
 
 - Other Notes
  - As you write tests, you'll notice where you have clean interfaces (easy to mock what the unit needs) and where units are too coupled or complicated (unnecessary dependencies, hard to spy on functions, unable to be deterministic about results)
