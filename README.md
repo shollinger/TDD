@@ -69,7 +69,7 @@ Write Unit Code
   * [Team Conventions](https://github.com/zendesk/zendesk/wiki/Info%3A-Coding-Conventions)
   * Logging
 * When all tests pass, YOU'RE DONE! Now you know the unit is doing what you'd expect and you can use the unit in another place.
- * "If you've written the code so that the test passes as intended, you are finished. You do not have to write more code speculatively. The test is the objective definition of "done." The phrase "You Ain't Gonna Need It" (YAGNI) is often used to veto unnecessary work. If new functionality is still needed, then another test is needed. Make this one test pass and continue." [Guidlines for Test Driven Development](https://msdn.microsoft.com/en-us/library/aa730844(v=vs.80).aspx)
+  * "If you've written the code so that the test passes as intended, you are finished. You do not have to write more code speculatively. The test is the objective definition of "done." The phrase "You Ain't Gonna Need It" (YAGNI) is often used to veto unnecessary work. If new functionality is still needed, then another test is needed. Make this one test pass and continue." [Guidlines for Test Driven Development](https://msdn.microsoft.com/en-us/library/aa730844(v=vs.80).aspx)
 
 
 * Other Notes
