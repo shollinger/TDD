@@ -73,5 +73,5 @@ Write Unit Code
 
 
 * Other Notes
-  * If you really think the test should pass based on what you coded, make sure the test is set up correctly
+  * If you really think the test should pass based on what you coded, make sure the test is set up correctly.  You can hard-code the return values in your module to check that the test is detecting a pass correctly.
   * Controller unit will likely just want to make sure each unit is being used properly - don't 'dig into' the unit because you'll end up duplicating testing effort.
