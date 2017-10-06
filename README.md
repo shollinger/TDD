@@ -52,6 +52,7 @@ Write Test Spec
 
 * Other Notes
   * As you write tests, you'll notice where you have clean interfaces (easy to mock what the unit needs) and where units are too coupled or complicated (unnecessary dependencies, hard to spy on functions, unable to be deterministic about results)
+  * If you don't know if something is possible yet, or what all the tests are needed, consult the hitchikers guide to the galaxy: DON'T PANIC!  Just write the specs you know about.  In this scenario, I will often write a single test 'this module should run', and all it does is import the module and call a function with no parameters.  The idea here is that you can make incremental updates to the tests as you experiment with the module.  This method will give you a fast feedback loop as you figure out more information about how a module can work (since the test watcher will keep running your module, very fast).  As you find out more information about your problem-space, you can fill out more meaningful specs and follow the TDD process for them.
 
 //////////// HAVE A BEER ////////////
 
@@ -61,7 +62,7 @@ Write Unit Code
 
 * Run the entire test suite - ALL TESTS WILL FAIL! This is good - we want to know our code is making things better.
 * Turn on file watcher
-* 1 test at a time, fill in the code until the test passes.  
+* 1 test at a time, fill in the code until the test passes.
 * Don't forget [good code design](http://www.principles-wiki.net/principles:start)!
   * [DRY](http://c2.com/cgi/wiki?DontRepeatYourself)
   * [SLAP](http://www.principles-wiki.net/principles:single_level_of_abstraction)
