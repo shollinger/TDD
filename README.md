@@ -25,6 +25,8 @@ Write Test Spec
 
 * Create Unit Shell
   * Empty block in all public-facing functions
+  * What are your external dependencies? (eg. databases, API services, configs, etc).  Mock them out and inject the dependencies into your module.
+   * Don't know what your dependencies are yet?  Either make reasonable guesses, or just wait to bring them in.
 
 * Identify and Mock Dependencies
   * What is this unit doing?  What does it need to do it's job (no more, no less).  Only the direct interfaces, not the dependency's dependencies.
